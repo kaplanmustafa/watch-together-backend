@@ -18,15 +18,16 @@ lerna-debug.log*
 # Tests
 /coverage
 /.nyc_output
+/test-results
 
 # IDEs and editors
 /.idea
 .project
 .classpath
 .c9/
-*.launch
+/*.launch
 .settings/
-*.sublime-workspace
+/*.sublime-workspace
 
 # IDE - VSCode
 .vscode/*
@@ -54,3 +55,25 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# IntelliJ IDEA specific
+/.idea/
+/*.iml
+
+# MacOS specific
+.DS_Store
+
+# npm specific
+package-lock.json
+
+# build directories
+/build/
+/dist/
+/out/
+
+# generated documentation
+/docs
+
+# NestJS specific
+/nest-cli.json
+/*.tsbuildinfo
